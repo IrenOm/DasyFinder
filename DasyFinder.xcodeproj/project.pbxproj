@@ -56,15 +56,39 @@
 		82E32FCB29E6D8DE00A2585B /* DasyFinder */ = {
 			isa = PBXGroup;
 			children = (
-				82E32FCC29E6D8DE00A2585B /* AppDelegate.swift */,
-				82E32FCE29E6D8DE00A2585B /* SceneDelegate.swift */,
-				82E32FD029E6D8DE00A2585B /* ViewController.swift */,
-				82E32FD229E6D8DE00A2585B /* Main.storyboard */,
+				82E32FE129E6DB1700A2585B /* AppDelegate */,
+				82E32FE029E6DB0400A2585B /* Controllers */,
+				82E32FE229E859F200A2585B /* View */,
 				82E32FD529E6D8E000A2585B /* Assets.xcassets */,
-				82E32FD729E6D8E000A2585B /* LaunchScreen.storyboard */,
 				82E32FDA29E6D8E000A2585B /* Info.plist */,
 			);
 			path = DasyFinder;
+			sourceTree = "<group>";
+		};
+		82E32FE029E6DB0400A2585B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82E32FD029E6D8DE00A2585B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		82E32FE129E6DB1700A2585B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				82E32FCC29E6D8DE00A2585B /* AppDelegate.swift */,
+				82E32FCE29E6D8DE00A2585B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		82E32FE229E859F200A2585B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82E32FD229E6D8DE00A2585B /* Main.storyboard */,
+				82E32FD729E6D8E000A2585B /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +310,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 736Y9JVWHC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DasyFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Day Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DasyFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -314,10 +339,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 736Y9JVWHC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DasyFinder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calendar Day Finder";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -327,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosbootcamp.DasyFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
